@@ -3,7 +3,7 @@
 A modern, fully responsive gym landing page built with Next.js 14, TailwindCSS, and TypeScript.
 
 ## 🚀 Live Demo
-[View Live Site](https://gym-landing-page.vercel.app)
+[View Live Site](https://gym-landing-page-lilac-five.vercel.app/)
 
 ## 🛠️ Tech Stack
 - **Framework:** Next.js 14 (App Router)
