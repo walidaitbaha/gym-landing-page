@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FitZone Gym - Landing Page
 
-## Getting Started
+A modern, fully responsive gym landing page built with Next.js 14, TailwindCSS, and TypeScript.
 
-First, run the development server:
+## 🚀 Live Demo
+[View Live Site](https://gym-landing-page.vercel.app)
 
-```bash
+## 🛠️ Tech Stack
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** TailwindCSS v4
+- **UI Components:** Shadcn/UI
+- **Email:** Nodemailer
+- **Deployment:** Vercel
+
+## ✨ Features
+- Fully responsive (mobile, tablet, desktop)
+- Sticky navigation with mobile menu
+- Hero section with stats
+- About section
+- Programs/Services section
+- Pricing plans
+- Customer testimonials
+- Contact form with email integration
+- SEO optimised
+
+## 📦 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+
+### Installation
+\`\`\`bash
+# Clone the repository
+git clone https://github.com/walidaitbaha/gym-landing-page.git
+
+# Move into the folder
+cd gym-landing-page
+
+# Install dependencies
+npm install
+
+# Create environment file
+cp .env.example .env.local
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Environment Variables
+Create a `.env.local` file in the root:
+\`\`\`
+EMAIL_USER=youremail@gmail.com
+EMAIL_PASS=your_gmail_app_password
+\`\`\`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
+\`\`\`
+business-landing/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   └── api/
+│       └── contact/
+│           └── route.ts
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Services.tsx
+│   ├── Pricing.tsx
+│   ├── Testimonials.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+└── public/
+\`\`\`
 
-## Learn More
+## 📸 Screenshots
+Coming soon
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+MIT License — free to use for personal and commercial projects.
